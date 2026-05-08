@@ -6,6 +6,12 @@
  
 
 
+//#resource "Room1.c"
+//#resource "Room2.c"
+//#resource "Room3.c"
+//#resource "Room4.c"
+//#resource "Room5.c"
+//#resource "scroll_up.chr"
 #define LIBARGS nes.lib
 //#resource "nrom_32k_horz.cfg"
 #define CFGFILE nrom_32k_horz.cfg

@@ -112,11 +112,11 @@ const unsigned char metatiles1[]={
 
 
 
-#include "BG/Room1.c"
-#include "BG/Room2.c"
-#include "BG/Room3.c"
-#include "BG/Room4.c"
-#include "BG/Room5.c"
+#include "Room1.c"
+#include "Room2.c"
+#include "Room3.c"
+#include "Room4.c"
+#include "Room5.c"
 
 #define MAX_ROOMS (5-1)
 #define MAX_SCROLL ((MAX_ROOMS*0x100) - 0x11)

@@ -252,9 +252,9 @@ detectNTSC:
 
 	jmp _main			;no parameters
 
-	.include "LIB/neslib.s"
-	.include "LIB/nesdoug.s"
-	.include "MUSIC/famitone2.s"
+	.include "neslib.s"
+	.include "nesdoug.s"
+	.include "famitone2.s"
 	
 	
 	
