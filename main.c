@@ -5,8 +5,16 @@
  */	
  
 
-#include "LIB/neslib.h"
-#include "LIB/nesdoug.h"
+
+#define LIBARGS nes.lib
+//#resource "nrom_32k_horz.cfg"
+#define CFGFILE nrom_32k_horz.cfg
+//#resource "neslib.s"
+//#resource "nesdoug.s"
+//#link "crt0.s"
+//#resource "famitone2.s" 
+#include "neslib.h"
+#include "nesdoug.h"
 #include "Sprites.h" // holds our metasprite data
 #include "scroll_up.h"
 
